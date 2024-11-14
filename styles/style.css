@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+body {
+  font-size: 150%;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 100%;
+  max-width: 1600px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: auto;
+}
+.header_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+}
+.logo_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: #222222;
+  font-weight: 600;
+  line-height: 150%;
+  font-size: 40px;
+}
+.logo_wrapper:hover {
+  color: #de2e54;
+}
+.header_ansor {
+  font: 500px;
+}
+.site_navbar_list {
+  display: flex;
+  gap: 32px;
+}
+.site_navbar_list_item_a {
+  color: #222222;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.site_navbar_list_item_a:hover {
+  color: #de2e54;
+}
+.header_wrapper_btn {
+  padding: 12px 24px;
+  background-color: #de2e54;
+  color: white;
+  border: 0;
+  border-radius: 8px;
+  text-transform: uppercase;
+  line-height: 150%;
+  letter-spacing: 2px;
+  border: 1px solid inherit;
+  cursor: pointer;
+}
+.header_wrapper_btn:hover {
+  background-color: white;
+  color: #de2e54;
+}
+.header_wrapper_btn:active {
+  background-color: #de2e54da;
+  color: white;
+}
+.hero {
+  background-color: #0eb4c1;
+}
+.hero_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero_text {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.hero_text_title {
+  color: #ffffff;
+  width: 100%;
+  max-width: 600px;
+  letter-spacing: -1px;
+  line-height: 40px;
+}
+.hero_text_info {
+  width: 100%;
+  max-width: 520px;
+  line-height: 150%;
+}
+.hero_text_btn {
+  width: 100%;
+  padding: 12px 24px;
+  background-color: #de2e54;
+  border: 0;
+  border-radius: 8px;
+  color: #ffffff;
+  width: 100%;
+  max-width: 220px;
+  cursor: pointer;
+}
+.hero_text_btn:hover {
+  background-color: #de2e54da;
+}
+.hero_text_btn:active {
+  background-color: #ec335b9f;
+}
+.hero_img {
+  margin-top: 30px;
+}
+.service {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 60px;
+  margin-top: 120px;
+  margin-bottom: 160px;
+}
+.service_title {
+  text-align: center;
+}
+.service_list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+}
+.service_list_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+}
+.service_list_item_group {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 25px;
+}
+.service_list_item_img {
+  width: 100%;
+  max-width: 300px;
+  height: 300px;
+}
+.item_group_info {
+  width: 100%;
+  max-width: 800px;
+}
+.register {
+  background-color: #0eb4c1;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.register_wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.register_wrap_title {
+  color: #ffffff;
+  font-weight: 700;
+}
+.register_wrap_group {
+  display: flex;
+  gap: 40px;
+}
+.register_btn1 {
+  padding: 12px 24px;
+  border: 2px solid white;
+  border-radius: 8px;
+  color: white;
+  background-color: #0eb4c1;
+  cursor: pointer;
+}
+.register_btn1:hover {
+  background-color: #de2e54;
+}
+.register_btn1:active {
+  background-color: #de2e54da;
+}
+.register_btn2 {
+  padding: 12px 24px;
+  border: 2px solid white;
+  border-radius: 8px;
+  color: white;
+  background-color: #0eb4c1;
+  cursor: pointer;
+}
+.footer {
+  background-color: black;
+  color: white;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.header_wrapperr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+}
+.logo_wrapperr {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: #ffffff;
+  font-weight: 600;
+  line-height: 150%;
+}
+.footer_ansor {
+  font-size: 45px;
+}
+.logo_wrapperr:hover {
+  color: #de2e54;
+}
+.site_navbar_listt {
+  display: flex;
+  gap: 32px;
+}
+.site_navbar_list_item_aa {
+  color: #ffffff;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.site_navbar_list_item_aa:hover {
+  color: #de2e54;
+}
